@@ -47,11 +47,8 @@ namespace EmployeeApplic
             get { return empID; }
             set { empID = value; }
         }
-        public float Pay
-        {
-            get { return currPay; }
-            set { currPay = value; }
-        }
+        //Автомат свойство
+        public float Pay { get; set; }
         public int Age
         {
             get { return empAge; }

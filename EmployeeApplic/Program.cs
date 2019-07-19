@@ -25,7 +25,7 @@ namespace EmployeeApplic
 
             Employee c3 = new Employee("Mike", 33, 124785787, 25478.34F, "");
             c3.DisplayStats();
-
+            Console.WriteLine("--------------------");
             Employee c4 = new Employee("", 0, 0)
             {
                 Name = "Fedor",
@@ -34,8 +34,9 @@ namespace EmployeeApplic
                 Age = 45
 
             };
-
+            
             c4.DisplayStats();
+            Console.WriteLine("--------------------");
 
             Employee c5 = new Employee("Borut", 47, 745472456, 4757.45F, "4784576544");
             c5.DisplayStats();
