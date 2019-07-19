@@ -8,6 +8,7 @@ namespace EmployeeApplic
 {
     class Employee
     {
+        //Поля
         private string empName;
         private int empID;
         private float currPay;
