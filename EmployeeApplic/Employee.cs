@@ -13,7 +13,7 @@ namespace EmployeeApplic
         private int empID;
         private float currPay;
         private int empAge;
-        private string empSsn;
+        private readonly string empSsn;
 
         //Свойства
         //Способ 1
